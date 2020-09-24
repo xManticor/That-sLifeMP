@@ -35,7 +35,7 @@ public class Main extends Application {
             System.out.println("YUM!");
         });
 
-        button.setText("HATDOG");
+        button.setText("ETITS");
         primaryStage.show();
     }
 
