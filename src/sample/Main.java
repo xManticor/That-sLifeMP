@@ -32,10 +32,10 @@ public class Main extends Application {
         primaryStage.setScene(scene);
         layout.getChildren().add(button);
         button.setOnAction(e->{
-            System.out.println("YUM!");
+            System.out.println("HAKDOG");
         });
 
-        button.setText("ETITS");
+        button.setText("ENTER");
         primaryStage.show();
     }
 

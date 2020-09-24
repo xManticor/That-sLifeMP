@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<SplitPane dividerPositions="0.7185929648241206" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="400.0" prefWidth="579.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <ImageView fitHeight="223.0" fitWidth="469.0" layoutX="70.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@thatslife.png" />
+               </image>
+               <effect>
+                  <Reflection fraction="0.74" topOpacity="0.16" />
+               </effect>
+            </ImageView>
+         </children></AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="105.0" prefWidth="578.0">
+         <children>
+            <Label layoutX="191.0" layoutY="14.0" text="SELECT NUMBER OF PLAYERS" textAlignment="CENTER" textOverrun="CLIP" wrapText="true">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font></Label>
+            <Button layoutX="308.0" layoutY="38.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="45.0" text="3" AnchorPane.topAnchor="38.0" />
+            <Button layoutX="222.0" layoutY="38.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="45.0" text="2" />
+         </children></AnchorPane>
+  </items>
+</SplitPane>
